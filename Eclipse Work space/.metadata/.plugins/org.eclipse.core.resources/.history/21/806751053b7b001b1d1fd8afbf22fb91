@@ -1,0 +1,21 @@
+package daym1;
+
+public class Vichele {
+	void run() {
+		System.out.println("running");
+	}
+}
+	class bike extends Vichele {
+		void run() {
+			System.out.println("passing");
+		}
+	
+
+	public static void main(String[] args) {
+		bike obj=new bike();
+		obj.run();
+		
+		
+	}
+
+}

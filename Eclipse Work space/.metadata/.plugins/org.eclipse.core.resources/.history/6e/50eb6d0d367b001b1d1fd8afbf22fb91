@@ -1,0 +1,11 @@
+package daym1;
+
+public class Task7methodoverriding {
+	
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

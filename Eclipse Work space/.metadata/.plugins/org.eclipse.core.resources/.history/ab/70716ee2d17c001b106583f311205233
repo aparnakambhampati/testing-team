@@ -1,0 +1,15 @@
+package daym4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Task2login4 {
+WebElement user,pass,login;
+	public static void main(String[] args) {
+		user=driver.findElement(By.name("username"));
+		pass=driver.findElement(By.name("password"));
+		login=driver.findElement(By.id("login"));
+
+	}
+
+}

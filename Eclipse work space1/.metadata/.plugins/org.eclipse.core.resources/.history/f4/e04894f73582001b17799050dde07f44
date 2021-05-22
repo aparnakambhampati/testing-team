@@ -1,0 +1,41 @@
+package package2;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import package1.Baseclass;
+
+public class Flipkartloginpage extends Baseclass{
+	
+
+	public static WebDriver driver;
+
+	public Flipkartloginpage(WebDriver driver) {
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+		
+	}
+	@FindBy(className = "_1_3w1N")
+	
+	 WebElement loginclick;
+	@FindBy(className = "_2IX_2- VJZDxU")
+	WebElement username;
+	@FindBy(className = "_2IX_2- _3mctLh VJZDxU")
+	WebElement password;
+	
+	@FindBy(className = "_2KpZ6l _2HKlqd _3AWRsL")
+	WebElement sub;
+	public void page1login() {
+		setup("https://www.flipkart.com/");
+		fnclick(loginclick);
+	
+		fnsendkeys(username, "9381430726");
+		fnsendkeys(password, "RameshMani143@");
+		fnclick(sub);
+	}
+
+	
+
+}

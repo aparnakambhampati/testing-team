@@ -1,0 +1,21 @@
+package Testngproject;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+//  TC_01_Verify if user is able to click on Home page
+public class Testclass {
+	@BeforeMethod
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ak21130\\Desktop\\appu files\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get(" https://web-int.stg.voyaah.com");
+		
+	}
+	@Test
+	public void Tc__1() {
+	
+	}
+}

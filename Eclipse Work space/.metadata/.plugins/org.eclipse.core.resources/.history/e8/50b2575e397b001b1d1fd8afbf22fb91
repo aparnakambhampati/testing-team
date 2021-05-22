@@ -1,0 +1,25 @@
+package daym1;
+
+public class Methodoverriding {
+	class vichele{
+		
+	
+	public void run() {
+		System.out.println("vichele is running");
+	}
+	}
+	class bike{
+		public void run() {
+			System.out.println("bike is running");
+		}
+	
+	}
+	
+	public static void main(String[] args) {
+		 bike obj=new  bike();
+		 obj.run();
+		
+	}
+
+}
+}

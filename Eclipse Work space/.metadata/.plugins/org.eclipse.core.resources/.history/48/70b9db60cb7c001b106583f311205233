@@ -1,0 +1,37 @@
+package daym4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Adactinlogin {
+	static WebElement user,pass,login;
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ak21130\\Desktop\\appu files\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://adactinhotelapp.com/HotelAppBuild2/");
+		driver.manage().window().maximize();
+		Actions ac=new Actions(driver);
+		WebElement drag=driver.findElement(By.xpath("Actions ac=new Actions(driver);\r\n"
+				+ "		WebElement drag=driver.findElement(by.)"));
+		WebElement droup=driver.findElement(By.name("password"));
+		ac.dragAndDrop(drag, droup);
+		//driver.navigate().to("https://adactinhotelapp.com/HotelAppBuild2/");
+		//user=driver.findElement(By.name("username"));
+		//pass=driver.findElement(By.name("password"));
+		//login=driver.findElement(By.id("login"));
+		//user.sendKeys("rameshadepu");
+		//pass.sendKeys("ramesh");
+		//login.click();
+		//String exptitle="Adactin.com - Search Hotel";
+		//String acttitle=driver.getTitle();
+		//System.out.println(acttitle);
+		
+		//driver.close();
+
+	}
+
+}

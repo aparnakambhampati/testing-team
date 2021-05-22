@@ -1,0 +1,14 @@
+package daym1;
+
+class Task7methodc2 extends Task7methodoverriding{
+public int bank(int acc, String name) {
+		
+		return acc;
+}
+
+	public static void main(String[] args) {
+		Task7methodc2 obj=new Task7methodc2();
+		obj.bank(21130, "appu");
+	}
+
+}

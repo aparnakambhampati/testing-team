@@ -1,0 +1,24 @@
+package methodsinjava;
+
+public class Interfacecls1 implements webdriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void login() {
+		System.out.println("login");
+		
+	}
+
+	@Override
+	public void logout() {
+		System.out.println("logout");
+		
+	}
+
+	
+
+}

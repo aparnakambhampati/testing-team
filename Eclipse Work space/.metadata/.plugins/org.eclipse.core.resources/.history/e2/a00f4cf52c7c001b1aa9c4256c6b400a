@@ -1,0 +1,5 @@
+package methodsinjava;
+
+public interface webdriver {
+
+}
